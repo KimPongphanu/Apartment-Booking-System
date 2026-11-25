@@ -1,0 +1,22 @@
+{
+  "buildCommand": "node script/build-static.js",
+  "outputDirectory": "dist",
+  "installCommand": "echo skip-install",
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/app/index.html" },
+    { "source": "/login", "destination": "/app/index.html" },
+    { "source": "/register", "destination": "/app/index.html" },
+    { "source": "/available", "destination": "/app/index.html" },
+    { "source": "/available/A-type", "destination": "/app/index.html" },
+    { "source": "/available/B-type", "destination": "/app/index.html" },
+    { "source": "/available/C-type", "destination": "/app/index.html" },
+    { "source": "/available/D-type", "destination": "/app/index.html" },
+    { "source": "/status", "destination": "/app/index.html" },
+    { "source": "/profile", "destination": "/app/index.html" },
+    { "source": "/upload", "destination": "/app/index.html" },
+    { "source": "/dashboard", "destination": "/app/index.html" },
+    { "source": "/Book/:roomno", "destination": "/app/index.html" },
+    { "source": "/dashboard/dataroom/:roomno", "destination": "/app/index.html" }
+  ]
+}
