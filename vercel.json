@@ -1,4 +1,6 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
   "buildCommand": "node script/build-static.js",
   "outputDirectory": "dist",
   "installCommand": "echo skip-install",

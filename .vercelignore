@@ -1,0 +1,15 @@
+node_modules
+.commandcode
+dist
+lib
+routes
+bin
+app.js
+authMiddleware.js
+setupTestUser.js
+saprojectmain.sql
+package-lock.json
+uploads/image-1728575640600.png
+uploads/image-1730530208761.png
+public/images/view
+public/images/login
